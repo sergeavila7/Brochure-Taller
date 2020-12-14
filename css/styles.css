@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./images/fondos/fondo-madera5.jpg);
+    background-size: 100%;
+    font-family: sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    z-index: 1;
+    width: 100%;
+    background:url("./images/fondos/fondo-madera7.jpg");
+    color: #fff !important;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    box-shadow: 4px 4px 9px 4px rgba(49, 12, 0, 0.973);
+}
+
+
+.navbar a{
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    background: whitesmoke;
+    color: black !important;
+}
+
+hr{
+    width: 95%;
+}
+
+ h1{
+    display: block;
+    text-align: center;
+    width: 40%;
+    height: 45px;
+    line-height: 45px;
+    background: url("./images/fondos/fondo-metal.jpg");
+    color: white;
+    box-shadow: 4px 4px 9px 4px rgba(49, 12, 0, 0.973);
+    font-size: 30px;
+    font-family: "BebasNeue";
+    font-weight: normal;
+    letter-spacing: 5px;
+    padding-left: 15px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    text-transform: uppercase;
+
+}
+
+#section-contact h2{
+    display: block;
+    text-align: center;
+    width: 40%;
+    height: 45px;
+    line-height: 45px;
+    background: url("./images/fondos/fondo-metal.jpg");
+    color: white;
+    font-size: 30px;
+    font-family: "BebasNeue";
+    font-weight: normal;
+    letter-spacing: 5px;
+    padding-left: 15px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+    text-transform: uppercase;
+
+}
+
+#section-home{
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+#section-home h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#section-home h3{
+    text-align: center;
+}
+
+#slider{
+    margin: auto;
+    height: 350px;
+    width: 80%;
+    overflow: hidden;
+    background: black;
+}
+
+
+#slider img{
+    width: 800px;
+    height: 400px;
+}
+
+#section-about{
+    height: 600px;
+    display: inline-block;
+    width: 100%;
+}
+
+.img-rigth img{
+    width: 450px;
+    height: 200px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 9px 4px rgba(49, 12, 0, 0.973);
+
+}
+
+.img-left img{
+    width: 450px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    box-shadow: 4px 4px 9px 4px rgba(49, 12, 0, 0.973);
+}
+
+#section-about .text{
+    font-size: 25px;
+    
+}
+
+#section-services{
+    height: 1350px;
+    display: inline-block;
+    width: 100%;
+}
+
+.cards .card-body{
+    height: 60px;
+    margin-bottom: 0px;
+    background: url("./images/fondos/fondo-madera3.jpg");
+    color: #fff;
+    text-align: center;
+}
+
+.cards img{
+    height: 200px;
+
+}
+
+#section-item{
+    background: url("./images/fondos/fondo-madera3.jpg");
+    color: #fff;
+    margin-top: 20px;
+}
+
+#item{
+margin: 20px;
+
+}
+
+#section-contact{
+    height: 300px;
+    background: black;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+#section-contact a{
+    color: white;
+    font-size: 23px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+#section-contact a:hover{
+    color: white;
+    filter: opacity(50%);
+    font-size: 25px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+
+#section-contact .contact .icon{
+    font-size: 40px;
+   margin-right: 10px;
+}
+
+#section-contact .icon:hover{
+    filter: opacity(50%);
+    color: #ccc;
+}
+    
+
+  
+
+#footer{
+    background: black;
+    color: white;
+}
+
+#footer p{
+    color: #ccc;
+text-align: center;
+}
+
