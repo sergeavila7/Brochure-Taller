@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=0.86, maxium-scale=3.0, minium-scale=0.86" />
 
-    <title>Brochure</title>
+    <title>Brochure-Taller</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fonts/style.css" />
-
+    <link rel="stylesheet" type="text/css" href="./css/fonts/responsive.css" />
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <div class="menu">
         <header class="col-md-16 mt-2">
             <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-                <a class="navbar-brand" href="#section-home">Navbar</a>
+                <a class="navbar-brand" href="#section-home">Brochure-Taller</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -40,8 +40,8 @@
     <div class="contenedor">
         <div id="section-home">
 
-            <h1>Brochure Taller</h1>
-            <h2>METALES, MADERAS & MAS...</h2>
+            <h1>Bienvenido</h1>
+            <h2><strong>METALES, MADERAS & MAS...</strong></h2>
             <h3>"Tu solucion en un solo lugar"</h3>
             <div class="container">
                 <div id="slider" class="carousel slide" data-ride="carousel">
@@ -118,29 +118,23 @@
             <div class="container">
 
                 <h1>Nosotros</h1>
-                <div class="img-rigth"><img src="./css/images/servicios.jpg"></div>
-
-                <div class="text">
-                    <p>Somos un Grupo de
+                <div class="content-about">
+                    <p class="about-text">Somos un Grupo de
                         Empresarios Mexicanos preocupados por fomentar el empleo en las zonas Rurales en México,
                         con mas de 20 años de experiencia en el ámbito laboral.</p>
-                </div>
-            </div>
-
-
-            <div class="clearfix"></div>
-
-            <div class="container">
-
-                <div class="img-left"><img src="./css/images/equipo.jpg"></div>
-                <div class="text">
-                    <p>Entendemos la necesidad de
-                        tener servicios competentes y de calidad en tu casa y/o negocio. Contamos con
-                        servicios llave en mano.</p>
+                    <img class="about-img" src="./css/images/servicios.jpg"/>
+                        
                 </div>
 
+                <div class="content-about">
+                    <p class="about-text">Entendemos la necesidad de
+                        tener servicios competentes y de calidad en tu casa y/o negocio.<strong>Contamos con
+                        servicios llave en mano.</strong></p>
+                    <img class="about-img" src="./css/images/llave.jpg"/>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="clearfix"></div>
 
         </div>
 
@@ -154,22 +148,20 @@
                             <img src="./css/images/metales.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Metales</h5>
-
                             </div>
-
                         </div>
+
                         <div class="card">
                             <img src="./css/images/maderas.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Maderas</h5>
-
                             </div>
                         </div>
+
                         <div class="card">
                             <img src="./css/images/planos.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Planos arquitectonicos</h5>
-
                             </div>
                         </div>
                     </div>
@@ -179,23 +171,23 @@
                             <img src="./css/images/herreria.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Herreria fina</h5>
-
                             </div>
                         </div>
+
                         <div class="card">
                             <img src="./css/images/reparacion de maquinaria.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Reparacion de maquinaria</h5>
-
                             </div>
                         </div>
+
                         <div class="card">
                             <img src="./css/images/estructuras.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Estructuras metalicas</h5>
-
                             </div>
                         </div>
+
                     </div>
 
 
@@ -224,24 +216,25 @@
                     </div>
                 </div>
 
-                <div class="card" id="section-item">
+                <div class="card" id="services-aditional">
                     <div class="card-body">
                         <h5 class="card-title">Tambien contamos con...</h5>
                         <p class="card-text">Servicios de Construcción de Muebles en Madera Fina, Construcción de
                             Cabañas, Reparación de muebles de Madera y Cualquier construcción en Madera a la medida de
-                            tus necesidades. .</p>
-                    </div>
+                            tus necesidades.</p>
 
                     <div class="card-deck">
-                        <div class="card" id="item">
-                            <img src="./css/images/cabaña.jpg" style="width:100%; height:200px;" class="card-img-top"
+                        <div class="card" id="aditional">
+                            <img src="./css/images/cabaña.jpg" style="width:100%; height:200px;" class="aditional-img"
                                 alt="...">
                         </div>
 
-                        <div class="card" id="item">
+                        <div class="card" id="aditional">
                             <img src="./css/images/carpinteria.jpg" style="width:100%; height:200px;"
-                                class="card-img-top" alt="...">
+                                class="aditional-img" alt="...">
                         </div>
+                    </div>
+
                     </div>
                 </div>
 
@@ -253,20 +246,20 @@
                 <h2 class="contact-title">Contacto</h2>
                 <ul class="contact">
                     <li><a class="nav-link" href=""><span class="icon icon-email"></span>ventas@metales&mas.mx</a></li>
-                    <li><a class="nav-link" href="" ><span class="icon icon-phone"></span>98 4198 3755</a></li>   
+                    <li><a class="nav-link" href=""><span class="icon icon-phone"></span>98 4198 3755</a></li>
                 </ul>
+            </div>
         </div>
-    </div>
-    <!--Footer-->
+        <!--Footer-->
 
 
-    <footer id="footer">
-        <p>&copy;Desarrollador SJAV 2020 | Todos los derechos reservados</p>
-    </footer>
-    <!--Fin Footer-->
+        <footer id="footer">
+            <p>&copy;Desarrollador SJAV 2020 | Todos los derechos reservados</p>
+        </footer>
+        <!--Fin Footer-->
 
-    <script type="text/javascript" src="./jquery/jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./jquery/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
