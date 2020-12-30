@@ -2,7 +2,7 @@
 @media (max-width: 1200px) { 
   
 #section-about .about-text{
-    font-size: 22px; 
+    font-size: 28px; 
 }
 
 }
@@ -21,15 +21,15 @@
  /* Large devices (desktops, 992px and up)*/
 @media (max-width: 990px) { 
   #section-home h2{
-    font-size: 26px;
+    font-size: 28px;
    }
    
    #section-home h3{
-      font-size: 22px;
+      font-size: 26px;
    }
 
    #section-about .about-text{
-    font-size: 20px; 
+    font-size: 26px; 
 }
 
 #section-services .cards h5{
@@ -60,15 +60,15 @@
       }
 
       #section-home h2{
-        font-size: 24px;
+        font-size: 26px;
        }
        
        #section-home h3{
-          font-size: 22px;
+          font-size: 24px;
        }
 
        #section-about .about-text{
-        font-size: 18px; 
+        font-size: 24px; 
     }
 
     #services-aditional .card-body h5{
@@ -87,13 +87,15 @@ font-size: 26px;
 
   }
   #section-home h2{
- font-size: 22px;
+ font-size: 24px;
 }
 
 #section-home h3{
-   font-size: 20px;
+   font-size: 22px;
 }
-
+#section-about .about-text{
+  font-size: 22px; 
+}
 
 
 }
@@ -104,18 +106,19 @@ font-size: 26px;
 @media (max-width: 576px) { 
 h1{
   font-size: 24px;
+  width: 45%;
 }
 
 #section-home h2{
-  font-size: 20px;
+  font-size: 22px;
  }
  
  #section-home h3{
-    font-size: 18px;
+    font-size: 20px;
  }
 
  #section-about .about-text{
-  font-size: 16px; 
+  font-size: 20px; 
 }
 
 
@@ -124,12 +127,16 @@ h1{
 @media (max-width: 470px) { 
   h1{
     font-size: 22px;
+    width: 45%;
   }
   #section-home h2{
-    font-size: 16px;
+    font-size: 20px;
    }
    
    #section-home h3{
-      font-size: 14px;
+      font-size: 18px;
    }
+   #section-about .about-text{
+    font-size: 18px; 
+}
 }

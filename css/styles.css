@@ -3,13 +3,14 @@ body{
     padding: 0;
     background: url(./images/fondos/fondo-madera5.jpg);
     background-size: 100%;
-    font-family: sans-serif;
 
 }
 
 html{
     scroll-behavior: smooth;
 }
+
+/*DISEÑOS DEL MENU*/
 
 .navbar{
     z-index: 1;
@@ -62,6 +63,7 @@ hr{
 
 }
 
+/*DISEÑOS SECTION INICIO*/
 #section-home{
     height: 25%px;
     display: inline-block;
@@ -71,14 +73,14 @@ hr{
 #section-home h2{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 28px;
+    font-family: "BebasNeue";
+    font-size: 30px;
 }
 
 #section-home h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "BebasNeue";
     text-align: center;
-    font-size: 26px
+    font-size: 28px
 }
 
 #slider{
@@ -97,6 +99,8 @@ hr{
     height: 400px;
 }
 
+
+/*DISEÑO SECTION NOSOTROS*/
 #section-about{
     height: 25%px;
     display: inline-block;
@@ -111,6 +115,7 @@ hr{
     margin-bottom: 20px;
 }
 
+/*USO DE PSEUDO ELEMENTO PARA DEGRADADO*/
 .content-about:before{
     content: "";
     width: 100%;
@@ -130,8 +135,8 @@ hr{
     left: 10px;
     text-align: center;
     color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 26px;   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;   
 }
 
 .about-img{
@@ -140,6 +145,8 @@ hr{
     display: block;
 }
 
+
+/*DISEÑO SECTION SERVICES*/
 #section-services{
     height: 25%px;
     display: inline-block;
@@ -172,8 +179,7 @@ hr{
 letter-spacing: 1px;
 }
 
-
-
+/*CONTENEDOR EXTRA PARA CARDS*/
 #services-aditional{
     background: url("./images/fondos/fondo-madera3.jpg");
     color: #fff;
@@ -186,7 +192,8 @@ letter-spacing: 1px;
 #services-aditional .card-body h5{
     font-size: 24px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 #services-aditional .card-body p{
@@ -195,6 +202,8 @@ letter-spacing: 1px;
 
 }
 
+
+/*DISEÑO DE SECTION CONTACT*/
 #section-contact{
     height: 25%;
     background: black;
@@ -204,25 +213,7 @@ letter-spacing: 1px;
    
 }
 
-#section-contact h2{
-    display: block;
-    text-align: center;
-    width: 40%;
-    height: 45px;
-    line-height: 45px;
-    background: url("./images/fondos/fondo-metal.jpg");
-    color: white;
-    font-size: 30px;
-    font-family: "BebasNeue";
-    font-weight: normal;
-    letter-spacing: 5px;
-    padding-left: 15px;
-    margin-top: 80px;
-    margin-bottom: 30px;
-    margin-left: 30%;
-    text-transform: uppercase;
 
-}
 
 #section-contact a{
     color: white;
@@ -249,14 +240,7 @@ letter-spacing: 1px;
    margin-right: 10px;
 }
 
-#section-contact .icon:hover{
-    filter: opacity(50%);
-    color: #ccc;
-}
     
-
-  
-
 #footer{
     background: black;
     color: white;
