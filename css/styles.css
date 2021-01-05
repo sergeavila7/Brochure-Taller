@@ -213,13 +213,14 @@ letter-spacing: 1px;
    
 }
 
-
+#section-contact ul li{
+    list-style: none;
+ }
 
 #section-contact a{
     color: white;
     font-size: 23px;
-    text-align: left;
-    text-decoration: none;
+    text-align: center;
     text-transform: lowercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -229,7 +230,6 @@ letter-spacing: 1px;
     color: white;
     filter: opacity(50%);
     font-size: 25px;
-    text-align: left;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -239,7 +239,6 @@ letter-spacing: 1px;
     font-size: 40px;
    margin-right: 10px;
 }
-
     
 #footer{
     background: black;
@@ -250,4 +249,5 @@ letter-spacing: 1px;
     color: #ccc;
 text-align: center;
 }
+
 
