@@ -210,7 +210,28 @@ letter-spacing: 1px;
    background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: cover;
+   margin-bottom: 0;
    
+}
+
+.contact-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map-title{
+    color: white;
+    text-align: center;
+    font-family: "BebasNeue";
+
+}
+
+
+.map-text{
+color: white;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
 }
 
 #section-contact ul li{
@@ -220,7 +241,7 @@ letter-spacing: 1px;
 #section-contact a{
     color: white;
     font-size: 23px;
-    text-align: center;
+    text-align: left;
     text-transform: lowercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -241,6 +262,7 @@ letter-spacing: 1px;
 }
     
 #footer{
+   
     background: black;
     color: white;
 }

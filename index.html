@@ -6,6 +6,8 @@
     <meta name="viewport" content="width-device-width, initial-scale=0.86, maxium-scale=3.0, minium-scale=0.86" />
 
     <title>Brochure-Taller</title>
+    <link rel="stylesheet" href="./css/animation.css">
+
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fonts/style.css" />
@@ -17,7 +19,7 @@
     <!-- INICIO NAVBAR -->
     <div class="menu">
         <header class="col-md-16 mt-2">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light fadeInDown">
                 <a class="navbar-brand" href="#section-home">Brochure-Taller</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -43,11 +45,11 @@
         <!-- INICIO SECTION INICIO-->
         <div id="section-home">
 
-            <h1>Bienvenido</h1>
-            <h2><strong>METALES, MADERAS & MÁS...</strong></h2>
-            <h3>"Tu solución en un solo lugar"</h3>
+            <h1 class="fadeIn">Bienvenido</h1>
+            <h2 class="fadeIn"><strong>METALES, MADERAS & MÁS...</strong></h2>
+            <h3 class="fadeIn">"Tu solución en un solo lugar"</h3>
             <div class="container">
-                <div id="slider" class="carousel slide" data-ride="carousel">
+                <div id="slider" class="carousel slide fadeInUp" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#slider" data-slide-to="0" class="active"></li>
                         <li data-target="#slider" data-slide-to="1"></li>
@@ -123,7 +125,7 @@
         <div id="section-about">
             <div class="container">
 
-                <h1>Nosotros</h1>
+                <h1 class="fadeIn">Nosotros</h1>
                 <div class="content-about">
                     <p class="about-text">Somos un Grupo de
                         Empresarios Mexicanos preocupados por fomentar el empleo en las zonas Rurales en México,
@@ -210,7 +212,7 @@
 
                         </div>
                     </div>
-                    
+
                     <div class="card">
                         <img src="./css/images/electricos.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -266,21 +268,34 @@
 
     <!-- INICIO SECTION CONTACT-->
     <div id="section-contact">
+        <h1 class="contact-title">Contacto</h1>
+
         <div class="container">
-            <h1 class="contact-title">Contacto</h1>
-            <ul class="contact">
-                <li><a class="nav-link" href="mailto:ventas@metales&mas.mx"><span
-                            class="icon icon-email"></span>ventas@metales&mas.mx</a></li>
-                <li><a class="nav-link" href="tel:+529841983755"><span class="icon icon-phone"></span>98 4198 3755</a>
-                </li>
-            </ul>
+            <div class="contact-information">
+                <ul class="contact">
+                    <li><a class="nav-link" href="mailto:ventas@metales&mas.mx"><span
+                                class="icon icon-email"></span>ventas@metales&mas.mx</a></li>
+                    <li><a class="nav-link" href="tel:+529841983755"><span class="icon icon-phone"></span>98 4198
+                            3755</a>
+                    </li>
+                </ul>
+                <div class="map">
+                    <h3 class="map-title">Ubicación</h3>
+                    <p class="map-text">Av. Miguel Hidalgo, Solferino, Q.R.</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3716.0350292741414!2d-87.43168548506193!3d21.349113485825683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDIwJzU2LjgiTiA4N8KwMjUnNDYuMiJX!5e0!3m2!1ses!2smx!4v1609892214244!5m2!1ses!2smx"
+                        width="350" height="250" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
         </div>
+
     </div>
     <!-- FIN SECTION CONTACT-->
 
     <!--INICIO FOOTER-->
     <footer id="footer">
-        <p>&copy;Desarrollador SJAV 2020 | Todos los derechos reservados</p>
+        <p>&copy;Desarrollador SJAV 2021 | Todos los derechos reservados</p>
     </footer>
     <!--FIN FOOTER-->
 
